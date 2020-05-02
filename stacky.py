@@ -32,7 +32,7 @@ def pop_st():
     if(stack_empty()=="stack empty"):
         return "empty stack"
     elif(stack_empty()=="ne"):
-         arr[top]=-1
+         arr[top]=-5
          top=top-1
 def display():
     print (arr)
